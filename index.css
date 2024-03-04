@@ -1,0 +1,29 @@
+.learningbtn{
+   margin-right: 25%;
+   background-color:rgb(245, 207, 79);
+   outline: rgb(245, 207, 79);
+   border-color: rgb(245, 207, 79) !important;
+   box-shadow: 1px 1px rgb(245, 207, 79);
+   font-weight: bold;
+   border-radius: 4px;
+}
+
+.card{
+    container:  flex; 
+    outline: 2px solid black;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    background-color: white;
+    height:max-content;
+    border-radius: 10px;
+    
+}
+
+.container{
+    background-color: rgb(245, 207, 79);
+}
+
+.pic{
+    align-items: left;
+}
