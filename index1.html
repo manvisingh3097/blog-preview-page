@@ -11,30 +11,36 @@ Greg Hooper -->
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title> Blog preview card </title>
-        <link rel="stylesheet" href="./index.css">
-    </head>
-    <body class="container">
-        <main class="">
-            <center>
-            <div class="card">
-                <img src="./assets/images/foundationimage.png" alt="button" ><br>
-               <button class="learningbtn">Learning</button>
-                <p class="paragraph">Published 21st December 2023 </p>
-                
-                <h2 class="h2">HTML & CSS foundations</h2>
+  <head>
+    <title>Blog preview card</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body class="container">
+    <main>
+      <div class="card">
+        <div>
+          <img src="./assets/images/foundationimage.png" alt="image" />
+        </div>
+        <div class="content">
+            <button class="learningbtn">Learning</button>
+            <p class="paragraph">Published 21st December 2023</p>
+    
+            <h2 class="h2">HTML & CSS foundations</h2>
+    
+            <p>
+              These languages are the backbone of every website, defining structure,
+              content, and presentation.
+            </p>
+    
+            <img src="./assets/images/image-avatar.webp" alt="" />
+            <a href="#author" class="pic">Greg Hooper </a><br />
+            <footer>
+              <button onclick="openModal()">Read more</button>
+            </footer>
+        </div>
 
-                <p> These languages are the backbone of every website, defining structure, content, and presentation. </p>
-
-                <img src="./assets/images/image-avatar.webp" alt="">
-                <a href="#author" class="pic">Greg Hooper </a><br> 
-            
-                <button onclick="openModal()">Read more</button>
-            
-            </div>
-        </center>
-            
-        </main>
-    </body>
+        
+      </div>
+    </main>
+  </body>
 </html>

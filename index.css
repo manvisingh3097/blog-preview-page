@@ -11,19 +11,137 @@
 .card{
     container:  flex; 
     outline: 2px solid black;
-    width: 50%;
+    width: 30%;
     height: 100%;
     padding: 20px;
     background-color: white;
     height:max-content;
     border-radius: 10px;
+  
+    margin-left: 25%;
     
 }
 
 .container{
     background-color: rgb(245, 207, 79);
+    align-items: center;
+    justify-content: center;
 }
 
 .pic{
     align-items: left;
 }
+/* 
+@font-face{
+    font-family: Figtree;
+    src: url(../assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+:root{
+    --Figtree-font:Figtree;
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    --Yellow: hsl(47, 88%, 63%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: var(--Black);
+}
+body{
+    font-family: var(--Figtree-font);
+    background-color: var(--Yellow);
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Blog-preview-card{
+    margin: 0 23px;
+    background-color: var(--White);
+    max-width: 382px;
+    padding: 23px;
+    border-radius: 20px;
+    border: 2px solid var(--Black);
+    box-shadow: 7px 7px 0px 0px var(--Black);
+}
+main{
+    width:fit-content;
+}
+.Blog-preview-card:hover{
+    transition: box-shadow 0.3s;
+    box-shadow:12px 12px ;
+}
+img{
+    width: 100%;
+}
+.Blog-preview-card > div img {
+    display: block;
+    border-radius: 10px;
+}
+.Blog-preview-card .content{
+    margin-top: 20px;
+}
+h2{
+    display: inline-block;
+    padding: 6px 13px;
+    font-weight: 800;
+    background-color: var(--Yellow);
+    text-transform: capitalize;
+    margin-bottom:13px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+h6{
+    font-weight: 600;
+    font-size: 0.88rem;
+    text-transform: capitalize;
+}
+.content span{
+    display: block;
+    margin: 20px 0;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+a:hover{
+    transition: color 0.3s;
+    color: var(--Yellow);
+}
+p{
+    color: var(--Grey);
+    margin-bottom: 23px;
+    font-size: 14px;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 32px;
+    height: 32px;
+}
+.image img{
+    display: block;
+}
+
+figcaption{
+    flex: 1;
+    padding-left: 12px;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+@media(min-width:404px){
+    .card{
+        margin: 0;
+    }
+    p{
+        font-size: 16px;
+    }
+} */
